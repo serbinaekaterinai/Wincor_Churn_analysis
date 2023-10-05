@@ -27,7 +27,7 @@ We endeavored to optimize the Decision Tree model through meticulous hyperparame
 ## Optimized Logistic Regression Model
 After an extensive optimization of our Logistic Regression model, we realized a significant augmentation in its predictive capacity. This enhancement was primarily achieved through meticulous hyperparameter tuning.
 
-The superior version of our model consistently registered a recall of 0.812 on the test dataset, marking a commendable ascent from our preliminary benchmarks. Furthermore, during cross-validation across diverse data subsets, the model exhibited an unwavering average recall of 0.818, epitomizing the robustness and reliability we aspired for.
+The superior version of our model consistently registered a recall of 0.812 on the test dataset, marking a commendable ascent from our preliminary benchmarks. Furthermore, during cross-validation across diverse data subsets, the model exhibited an unwavering average recall of 0.84, epitomizing the robustness and reliability we aspired for.
 
 ![Alt text for your image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%2011.18.50%20AM.png)
 
