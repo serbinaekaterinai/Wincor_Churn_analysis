@@ -11,13 +11,12 @@ The dataset contains information on 7,043 customers, including demographics, acc
 - The data is slightly imbalanced, with 5,163 non-churning and 1,869 churning customers.
 - The dataset comprises 21 columns, detailing aspects such as contract type, monthly charges, total charges, and the type of services opted by the customer.
 
-## Methodology
- **Data Preprocessing**: 
+ ## Data Preprocessing: 
    - One-Hot encoding was employed to handle categorical variables.
    - Data was scaled for better model performance.
    - SMOTE (Synthetic Minority Over-sampling Technique) was used to address the imbalanced data issue.
 
- **Modeling**:
+ ## Modeling:
    - **Logistic Regression**: Served as the baseline model. It achieved a recall of approximately 78% on the test set, indicating its ability to capture a significant proportion of potential churners.
    - **Decision Trees**: Our Decision Tree had a recall of 0.54, lower than the Logistic Regression. Decision tree looks quite complex- indication overfitting.
      
