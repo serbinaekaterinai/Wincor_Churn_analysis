@@ -12,27 +12,28 @@ The dataset contains information on 7,043 customers, including demographics, acc
 - The dataset comprises 21 columns, detailing aspects such as contract type, monthly charges, total charges, and the type of services opted by the customer.
 
 ## Methodology
-1. **Data Preprocessing**: 
+ **Data Preprocessing**: 
    - One-Hot encoding was employed to handle categorical variables.
    - Data was scaled for better model performance.
    - SMOTE (Synthetic Minority Over-sampling Technique) was used to address the imbalanced data issue.
 
-2. **Modeling**:
+ **Modeling**:
    - **Logistic Regression**: Served as the baseline model. It achieved a recall of approximately 78% on the test set, indicating its ability to capture a significant proportion of potential churners.
    - **Decision Trees**: An initial decision tree model displayed signs of overfitting. Further hyperparameter tuning improved performance.
-
 ![Alt text for your image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%201.59.35%20PM.png)
 
-3. **Evaluation Metrics**:
+ **Evaluation Metrics**:
    - Given the business context, recall was the prioritized metric as it indicates the model's ability to identify potential churners.
    - Additional metrics such as accuracy, precision, and the F1 score provided a comprehensive view of model performance.
+   - 
+By fine-tuning our Logistic Regression model, its power amplified. It now boasts a recall of 0.812, quite the leap from our first attempt. And its consistency is admirable! Across various data sets, it consistently performs well. Our visuals help depict this model's heightened accuracy. Most importantly, it's better poised to spot those customers pondering a departure, allowing us to step in timely.
 
 ![Alt text for your image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%2011.18.50%20AM.png)
 
 
 ![Alt text for your image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%2011.45.59%20AM.png)
 
-4. **Feature Importance**:
+ **Feature Importance**:
    - Tenure, total charges, contract type, and monthly charges emerged as some of the most influential factors determining customer churn.
 
 ![image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%2011.15.51%20AM.png)
