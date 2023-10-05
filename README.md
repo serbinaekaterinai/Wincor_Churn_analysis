@@ -36,7 +36,7 @@ Moreover, the Receiver Operating Characteristic (ROC) curve indicates that this 
 
 ![Alt text for your image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%2011.45.59%20AM.png)
 
- **Key Drivers of Customer Retention and Churn**:
+ ## Key Drivers of Customer Retention and Churn:
    - Tenure and Total Charges have the most significant impact
    - Long-term contracts and phone service reduce Churn
    - Higher monthly charges increase Churn
