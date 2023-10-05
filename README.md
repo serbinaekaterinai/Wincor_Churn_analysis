@@ -58,4 +58,4 @@ By leveraging machine learning and data analysis, Wincor can proactively identif
 
 ## Additional Materials
 
-Please review our full analysis in our [Jupyter Notebook](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/Project%20Wincor.ipynb) or our [presentation](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/Project%20Wincor%20Presentation.pdf) .
+Please review our full analysis in our [Jupyter Notebook](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/Project%20Wincor.ipynb) or our [presentation(https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/Project%20Wincor%20Presentation%20.pdf) .
