@@ -1,4 +1,5 @@
 # Wincor Customer Churn Analysis
+### Prepared by [Ekaterina Serbina]([https://github.com/your_username](https://github.com/serbinaekaterinai))
 
 Wincor, an Internet Service Provider (ISP), is dedicated to delivering superior customer satisfaction. However, churn - when customers decide to terminate their subscriptions or switch to a different service provider - is a persisting challenge. This project aims to analyze customer data to understand the primary reasons behind churn and predict potential churners to proactively implement retention strategies.
 
@@ -43,4 +44,4 @@ By leveraging machine learning and data analysis, Wincor can proactively identif
 
 ## Additional Materials
 
-Please review our full analysis in our Jupyter Notebook or our presentation .
+Please review our full analysis in our [Jupyter Notebook](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/Project%20Wincor.ipynb) or our [presentation](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/Project%20Wincor%20Presentation.pdf) .
