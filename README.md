@@ -40,3 +40,7 @@ The dataset contains information on 7,043 customers, including demographics, acc
 
 ## Conclusion
 By leveraging machine learning and data analysis, Wincor can proactively identify customers at risk of churning and implement tailored strategies to retain them. Implementing the recommendations from this analysis can lead to increased customer satisfaction, reduced churn rates, and enhanced business sustainability.
+
+## Additional Materials
+
+Please review our full analysis in our Jupyter Notebook or our presentation .
