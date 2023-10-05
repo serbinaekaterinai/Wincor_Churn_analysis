@@ -19,26 +19,31 @@ The dataset contains information on 7,043 customers, including demographics, acc
 
  **Modeling**:
    - **Logistic Regression**: Served as the baseline model. It achieved a recall of approximately 78% on the test set, indicating its ability to capture a significant proportion of potential churners.
-   - **Decision Trees**: An initial decision tree model displayed signs of overfitting. Further hyperparameter tuning improved performance.
+   - **Decision Trees**: Our Decision Tree had a recall of 0.54, lower than the Logistic Regression. Decision tree looks quite complex- indication overfitting.
+     
 ![Alt text for your image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%201.59.35%20PM.png)
 
- **Evaluation Metrics**:
-   - Given the business context, recall was the prioritized metric as it indicates the model's ability to identify potential churners.
-   - Additional metrics such as accuracy, precision, and the F1 score provided a comprehensive view of model performance.
-   - 
-By fine-tuning our Logistic Regression model, its power amplified. It now boasts a recall of 0.812, quite the leap from our first attempt. And its consistency is admirable! Across various data sets, it consistently performs well. Our visuals help depict this model's heightened accuracy. Most importantly, it's better poised to spot those customers pondering a departure, allowing us to step in timely.
+We endeavored to optimize the Decision Tree model through meticulous hyperparameter tuning. Despite our rigorous efforts, the finest iteration achieved a recall of 0.77 both in training and testing phases. Nevertheless, this performance did not surpass the efficacy demonstrated by our Logistic Regression model.
+
+ **Optimized Logistic Regression Model**:
+After an extensive optimization of our Logistic Regression model, we realized a significant augmentation in its predictive capacity. This enhancement was primarily achieved through meticulous hyperparameter tuning.
+
+The superior version of our model consistently registered a recall of 0.812 on the test dataset, marking a commendable ascent from our preliminary benchmarks. Furthermore, during cross-validation across diverse data subsets, the model exhibited an unwavering average recall of 0.818, epitomizing the robustness and reliability we aspired for.
 
 ![Alt text for your image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%2011.18.50%20AM.png)
 
+Moreover, the Receiver Operating Characteristic (ROC) curve indicates that this refined model, akin to our initial model, possesses a commendable discriminative capability in segregating potential churners from the loyal customer base.
 
 ![Alt text for your image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%2011.45.59%20AM.png)
 
- **Feature Importance**:
-   - Tenure, total charges, contract type, and monthly charges emerged as some of the most influential factors determining customer churn.
+ **Key Drivers of Customer Retention and Churn**:
+   - Tenure and Total Charges have the most significant impact
+   - Long-term contracts and phone service reduce Churn
+   - Higher monthly charges increase Churn
 
 ![image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%2011.15.51%20AM.png)
 
-## Key Findings & Recommendations
+## Business Recommendations
 1. **Promote Longer-Term Contracts**: Long-term contracts, especially one-year and two-year plans, were inversely related to churn. Customers should be incentivized to opt for longer durations.
 2. **Review Pricing Strategies**: Higher monthly charges correlate with increased churn. Introducing competitive pricing or value bundles can aid retention.
 3. **Diversify Payment Options**: Customers using electronic checks as a payment method displayed a higher propensity to churn. Introducing varied and convenient payment methods can enhance customer experience.
