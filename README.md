@@ -20,7 +20,7 @@ The dataset contains information on 7,043 customers, including demographics, acc
 2. **Modeling**:
    - **Logistic Regression**: Served as the baseline model. It achieved a recall of approximately 78% on the test set, indicating its ability to capture a significant proportion of potential churners.
    - **Decision Trees**: An initial decision tree model displayed signs of overfitting. Further hyperparameter tuning improved performance.
-![Alt text for your image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%201.59.35%20PM.png)
+[Alt text for your image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%201.59.35%20PM.png)
 
 3. **Evaluation Metrics**:
    - Given the business context, recall was the prioritized metric as it indicates the model's ability to identify potential churners.
