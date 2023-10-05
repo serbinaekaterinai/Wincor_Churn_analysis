@@ -37,8 +37,8 @@ Moreover, the Receiver Operating Characteristic (ROC) curve indicates that this 
 
  ## Key Drivers of Customer Retention and Churn:
    - Tenure and Total Charges have the most significant impact
-   - Long-term contracts and phone service reduce Churn
-   - Higher monthly charges increase Churn
+   - Contract length (both long-term and short-term) and phone service have an effect on churn predictions
+   - Monthly charges play a role in churn predictions
 
 ![image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%2011.15.51%20AM.png)
 
