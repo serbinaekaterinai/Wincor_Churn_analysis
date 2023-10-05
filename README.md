@@ -25,7 +25,7 @@ The dataset contains information on 7,043 customers, including demographics, acc
 
 We endeavored to optimize the Decision Tree model through meticulous hyperparameter tuning. Despite our rigorous efforts, the finest iteration achieved a recall of 0.77 both in training and testing phases. Nevertheless, this performance did not surpass the efficacy demonstrated by our Logistic Regression model.
 
-### Optimized Logistic Regression Model
+## Optimized Logistic Regression Model
 After an extensive optimization of our Logistic Regression model, we realized a significant augmentation in its predictive capacity. This enhancement was primarily achieved through meticulous hyperparameter tuning.
 
 The superior version of our model consistently registered a recall of 0.812 on the test dataset, marking a commendable ascent from our preliminary benchmarks. Furthermore, during cross-validation across diverse data subsets, the model exhibited an unwavering average recall of 0.818, epitomizing the robustness and reliability we aspired for.
