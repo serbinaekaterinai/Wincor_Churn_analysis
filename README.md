@@ -26,6 +26,7 @@ The dataset contains information on 7,043 customers, including demographics, acc
    - Given the business context, recall was the prioritized metric as it indicates the model's ability to identify potential churners.
    - Additional metrics such as accuracy, precision, and the F1 score provided a comprehensive view of model performance.
 [Alt text for your image](https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%2011.18.50%20AM.png)
+[Alt text for your image]((https://github.com/serbinaekaterinai/Wincor_Churn_analysis/blob/main/images%20readme/Screenshot%202023-10-04%20at%2011.45.59%20AM.png))
 
 4. **Feature Importance**:
    - Tenure, total charges, contract type, and monthly charges emerged as some of the most influential factors determining customer churn.
